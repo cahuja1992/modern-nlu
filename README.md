@@ -62,14 +62,14 @@ If your repository contains large files, enable Git LFS using the following step
 2. **Track a specific folder with large files:**
 
    ```sh
-   git lfs track "large_files/**"
+   git lfs track "assets/**"
    ```
 
 3. **Commit and push the changes:**
 
    ```sh
    git add .gitattributes
-   git add large_files/
+   git add assets/
    git commit -m "Track large files using Git LFS"
    git push origin main
    ```
