@@ -83,7 +83,7 @@ If your repository contains large files, enable Git LFS using the following step
 5. **For cloning the repository with LFS files, use:**
 
    ```sh
-   git clone https://github.com/user/repo.git
+   git clone https://github.com/cahuja1992/modern-nlu.git
    git lfs pull
    ```
 
